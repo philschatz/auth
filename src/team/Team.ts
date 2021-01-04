@@ -565,7 +565,7 @@ export class Team extends EventEmitter {
     }
   }
 
-  private get userName() {
+  public get userName() {
     return this.context.user.userName
   }
 
